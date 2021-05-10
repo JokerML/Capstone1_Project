@@ -43,13 +43,13 @@ if (isset($_POST['login'])) {
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Login</title>
-	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 	<div class="container">
 		<form action="index.php" method="post">
 			<div class="logo">
-				<img src="image/logo.jpg" alt="SMCBI Logo">
+				<img src="image/user.png" alt="Admin">
 			</div>
 			<div class="inputText">
 				<input type="text" name="username" placeholder="Username">
